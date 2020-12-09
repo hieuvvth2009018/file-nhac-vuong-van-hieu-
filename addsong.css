@@ -1,0 +1,96 @@
+*{
+    font-family: "SF Pro Text", Arial, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://1.bp.blogspot.com/-B6Q52G_EJcg/XXdP5WIMseI/AAAAAAAASCk/BxxC6_v0NsEtSAgPciO4DFHnNP-g8NtHACLcBGAs/s1600/hinh-nen-may-tinh-phong-canh-thien-nhien-full-hd%2B%252858%2529.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.item {
+    width: 700px;
+    background: #ffff;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+form[name="register-form"] [name="firstName"], form[name="register-form"] [name="lastName"], form[name="register-form"] [name="gender"], form[name="register-form"] [name="birthday"] {
+    background: #ffff;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+}
+
+form[name="register-form"] [name="firstName"]{
+    width: 44%;
+    transform: translateX(40px);
+}
+
+form[name="register-form"] [name="lastName"]{
+    width: 44%;
+    transform: translateX(60px);
+}
+
+form[name="register-form"] [name="gender"]{
+    width: 33%;
+    transform: translateX(40px);
+}
+
+form[name="register-form"] [name="birthday"]{
+    width: 55%;
+    transform: translateX(60px);
+}
+
+.form-login {
+    width: 850px;
+    height: 500px;
+    background: #ffff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    background-color: azure;
+    overflow: auto;
+}
+
+.register {
+    width: 150px;
+    background: #ffff;
+    border-radius: 10px;
+    padding: 15px 15px;
+    background-color: cyan;
+    font-family: Cambria;
+    text-align: center;
+    display: inline-block;
+}
+
+.register:hover{
+    background-color: deepskyblue;
+}
+
+.transform {
+    transform: translateY(20px);
+}
+
+.transforms {
+    margin: 40px auto 10px;
+    transition: opacity 0.2s;
+    cursor: pointer;
+    width: 100%;
+}
+body{
+    height: 200px;
+width: 500px;
+}

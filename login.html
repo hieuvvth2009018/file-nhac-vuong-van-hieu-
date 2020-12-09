@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="css/login.css" rel="stylesheet">
+    <title>HieuMusic // Login</title>
+</head>
+<style>
+    body{
+        background: antiquewhite;
+    }
+</style>
+<body>
+
+<h1>Login</h1>
+
+<form name="login-form">
+    <input name="email" placeholder="Email..." type="email" ><br>
+
+    <input name="password" placeholder="Password..." type="password" required><br>
+
+    <div class="btn-list">
+        <button name="btn-login" type="button" value="Login">Login</button>
+        <a href="register.html">
+            <button name="btn-register" type="button" value="Register">Register</button>
+        </a>
+    </div>
+    <div class="error-msg"></div>
+</form>
+<script src="js/login.js"></script>
+</body>
+</html>
